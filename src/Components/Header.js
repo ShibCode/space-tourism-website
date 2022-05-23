@@ -33,7 +33,6 @@ export default function Header() {
     }
   }, [location.pathname]);
   document.body.addEventListener("click", (e) => {
-    console.log(e.target.classList.contains("nav-event-listener"));
     if (e.target.classList.contains("nav-event-listener") == false) {
       document.querySelector(".nav-list").classList.remove("opened");
       document.querySelector(".close-nav-img").classList.add("hide");

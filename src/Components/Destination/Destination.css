@@ -144,6 +144,7 @@
     width: 90%;
     text-align: center;
     align-items: center;
+    align-self: center;
   }
   .destination-link {
     font-size: clamp(14px, 3.733333vw, 16px);
