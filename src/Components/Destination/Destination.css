@@ -61,6 +61,7 @@
   flex-direction: column;
   gap: 1.5rem;
   width: 39%;
+  align-self: flex-start;
 }
 .hr1 {
   border-color: #383b4b;
